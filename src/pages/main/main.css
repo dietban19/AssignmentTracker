@@ -1,0 +1,47 @@
+.main-wrapper {
+  color: white;
+
+  height: 100vh;
+  /* display: grid;
+  place-items: center; */
+}
+.main-container {
+  background-color: blue;
+}
+
+.table-container {
+  background-color: green;
+}
+.table-container table {
+  background-color: purple;
+  width: 100%;
+}
+
+th:nth-child(4),
+th:nth-child(5),
+td:nth-child(4),
+td:nth-child(5) {
+  text-align: right;
+  outline: 1px solid black;
+}
+th:nth-child(1),
+td:nth-child(1) {
+  width: 8rem;
+}
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(5),
+td:nth-child(5) {
+  width: 10rem;
+}
+td:nth-child(3),
+th:nth-child(3) {
+  width: 8rem;
+  text-align: center;
+  background-color: red;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+  background-color: blue;
+}
